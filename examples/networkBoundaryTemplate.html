@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+    </div>
+    <script>
+      var NPMap = {
+        "baseLayers": [
+          "nps-parkTiles",
+          "nps-parkTilesImagery",
+          "nps-parkTilesSlate",
+          "mapbox-terrain"
+        ],
+        "center": {
+          "lat": 35.99578538642032,
+          "lng": -115.90576171874999
+        },
+        "description": "An I&M network NPMap template",
+        "div": "map",
+        "homeControl": true,
+        "name": "Network Map",
+        "overlays": [
+          {
+            "opacity": 1,
+            "clickable": false,
+            "table": "im_networks",
+            "type": "cartodb",
+            "user": "nps",
+            
+            // Change to your network code (lowercase)
+            
+            "sql": "SELECT * FROM im_networks WHERE network_co = 'mojn'",
+            "name": "Network Boundary",
+            "styles": {
+              "fill": "#d39800",
+              "fill-opacity": "0",
+              "stroke": "#d39800",
+              "stroke-width": "3",
+              "stroke-opacity": "0.8"
+            }
+          }
+        ],
+        "scaleControl": true,
+        "smallzoomControl": true,
+        "zoom": 6
+      };
+
+      var s = document.createElement('script');
+      s.src = 'http://www.nps.gov/lib/npmap.js/2.0.0/npmap-bootstrap.min.js';
+      document.body.appendChild(s);
+    </script>
+  </body>
+</html>
