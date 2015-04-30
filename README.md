@@ -1,8 +1,9 @@
-# npmap-im-dm-conf-2015
+# dm-meeting-2015
 
-## References
+## GitHub
 
-- [Maptime - Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/#0)
+- [GitHub Pages](https://pages.github.com/)
+- [Gist](https://gist.github.com/)
 
 ## NPMap
 - [NPMap Examples](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
@@ -12,3 +13,13 @@
 ## Online GeoJSON Tools
 - http://ogre.adc4gis.com/ - Convert to/from GeoJSON
 - http://geojson.io - Create and Convert GeoJSON
+
+## MailChimp
+
+- [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
+- [Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
+- [Unigrid Header](http://immojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
+
+## References
+
+- [Maptime - Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/#0)
