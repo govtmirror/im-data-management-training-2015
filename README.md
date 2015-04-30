@@ -1,3 +1,5 @@
+![MOJN-Centennial Logo](./images/mojn-centennial-transparent.png)
+
 # IM MOJN Data Management Meeting 2015
 
 ## GitHub
