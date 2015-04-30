@@ -1,6 +1,6 @@
 ![MOJN-Centennial Logo](https://raw.githubusercontent.com/immojn/data-management-training-2015/gh-pages/images/mojn-centennial-transparent.png)
 
-# IM MOJN Data Management Meeting 2015
+# data-management-training-2015
 
 ## GitHub
 
