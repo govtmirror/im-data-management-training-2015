@@ -12,6 +12,7 @@
 ### NPMap.js
 
 - [NPMap Examples](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
+- [Examples from Presentations](http://immojn.github.io/data-management-training-2015/examples)
 - [Leaflet Documentation](http://leafletjs.com/reference.html)
 - [npmap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
