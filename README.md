@@ -6,11 +6,12 @@
 - [Gist](https://gist.github.com/)
 
 ## NPMap.js
+
 - [NPMap Examples](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
 - [Leaflet Documentation](http://leafletjs.com/reference.html)
 - [npmap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
-## MailChimp
+## [MailChimp](http://mailchimp.com)
 
 - [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
 - [Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
