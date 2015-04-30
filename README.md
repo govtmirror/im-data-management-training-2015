@@ -1,4 +1,4 @@
-# dm-meeting-2015
+# IM MOJN Data Management Meeting 2015
 
 ## GitHub
 
