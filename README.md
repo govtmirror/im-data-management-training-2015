@@ -4,26 +4,29 @@
 
 ## Presentations
 
-### GitHub
+### 1. GitHub
+  - [Git Code School](http://try.github.io)
+  - [GitHub Pages](https://pages.github.com/)
+  - [Gist](https://gist.github.com/)
 
-- [Git Code School](http://try.github.io)
-- [GitHub Pages](https://pages.github.com/)
-- [Gist](https://gist.github.com/)
+### 2. NPMap.js
+##### Examples
 
-### NPMap.js
+  - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
+  - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
 
-- [NPMap Examples](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
-- [Examples from Presentations](http://immojn.github.io/data-management-training-2015/examples)
-- [Leaflet Documentation](http://leafletjs.com/reference.html)
-- [npmap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
+##### Docs
 
-### MailChimp
+  - [Leaflet Documentation](http://leafletjs.com/reference.html)
+  - [npmap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
-- [MailChimp](http://mailchimp.com)
-- [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
-- [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
-- [Newsletter Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
-- [Responsive Unigrid Header](http://immojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
+3. ### MailChimp
+
+  - [MailChimp](http://mailchimp.com)
+  - [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
+  - [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
+  - [Newsletter Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
+  - [Responsive Unigrid Header](http://immojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
 
 
 ## References
