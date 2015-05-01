@@ -10,17 +10,18 @@
   - [Gist](https://gist.github.com/)
 
 ### 2. NPMap.js
-  ##### Examples
+
+#####  Examples
 
     - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
     - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
-
-  ##### Docs
+    
+#####  Docs
 
     - [Leaflet Documentation](http://leafletjs.com/reference.html)
     - [npmap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
-3. ### MailChimp
+### 3. MailChimp
 
   - [MailChimp](http://mailchimp.com)
   - [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
