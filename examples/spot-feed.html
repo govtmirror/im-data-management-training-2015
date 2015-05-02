@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+    </div>
+    <script>
+      var NPMap = {
+        "baseLayers": [
+          "nps-parkTiles",
+          "nps-parkTilesImagery",
+          "mapbox-terrain"
+        ],
+        "center": {
+          "lat": 39.06,
+          "lng": -96.02
+        },
+        "description": "SPOT Check-Ins",
+        "div": "map",
+        "editControl": true,
+        "homeControl": true,
+        "locateControl": true,
+        "measureControl": true,
+        "name": "MOJN Live!",
+        "scaleControl": true,
+        "smallzoomControl": true,
+        "zoomdisplayControl": false,
+        "overlays": [
+          {
+            "type": "geojson",
+            "url": "iu_plots.geojson",
+            // How to style style features differently based on attributes
+            "styles": {
+              "point": function(feature) {
+                switch (feature.Accept) {
+                  case 'Accepted': return {
+                    "marker-color": "#08ae56",
+                    "marker-size": "small",
+                    "marker-symbol": "star"
+                  };
+                  case 'Rejected':   return {
+                    "marker-color": "#0000ff",
+                    "marker-size": "small",
+                    "marker-symbol": "cross"
+                    };
+                  };
+                }
+            },
+            //"cluster": true, // Should points be clustered in this overlay?
+            // Using handlebars and HTML in tooltips and popups
+            "tooltip": "{{Unit_Code}}-{{Plot_Nbr}}",
+            "popup": {
+              title: "{{Unit_Code}}-{{Plot_Nbr}}",
+              description: "<b>Status:</b> {{Accept}}"
+              }
+            },
+            {
+              "id": "id", // SPOT feed ID here
+              "type": "spot",
+              "password": "password",  // SPOT feed password here
+              "zoomToBounds": true,
+              "minutesAgo": 4320, // Up to 10080 (7 Days) - 1440 min/day
+              //"latest": true, // Define `latest` or `minutesAgo` to limit spot messages
+              "styles": {
+              "point": {
+                "marker-size": "large",
+                "marker-symbol": "dog-park"
+              }
+            },
+            // Handlebars and HTML in popup, this is transferable to any spot layer
+            "popup": {
+              title: "{{messengerName}}",
+              description: function(feature) {
+                var messageDate = new Date(feature.unixTime * 1000);
+                return "<p><b>Time:</b> " + messageDate + "</p><p><b>Message:</b> {{messageContent}}</p><p><b>Battery State:</b> {{batteryState}}</p>"
+              }
+            }
+          }
+        ]
+      };
+  
+      var s = document.createElement('script');
+      s.src = 'http://www.nps.gov/lib/npmap.js/2.0.0/npmap-bootstrap.min.js';
+      document.body.appendChild(s);
+    </script>
+  </body>
+</html>
