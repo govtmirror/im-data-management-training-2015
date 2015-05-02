@@ -35,6 +35,7 @@
 ### Presentations
 
 - [Maptime - Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/#0)
+  - Note: Wait until it is done loading, then advance presentation with arrowkeys
 
 ### Online GeoJSON Tools
 
