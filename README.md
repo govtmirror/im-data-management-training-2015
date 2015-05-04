@@ -5,6 +5,7 @@
 ## Presentations
 
 ### 1. GitHub
+  - [MOJN GitHub Organization](https://github.com/immojn)
   - [Git Code School](http://try.github.io)
   - [GitHub Pages](https://pages.github.com/)
   - [Gist](https://gist.github.com/)
