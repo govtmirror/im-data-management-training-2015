@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>On Each Feature | Examples | NPMap.js</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var NPMap = {
+        div: 'map',
+        overlays: [
+          {
+            "type": "geojson",
+            "url": "https://raw.githubusercontent.com/immojn/data/gh-pages/projects/im_mojn/mojnBoundary.geojson",
+            "clickable": false,
+            "name": "mojnBoundary",
+            "styles": {
+              "polygon": {
+                "fill": "transparent",
+                "fill-opacity": 0.8,
+                "stroke": "#d39800",
+                "stroke-opacity": "0.8",
+                "stroke-width": "3"
+              }
+            }
+          },
+          {
+            "type": "geojson",
+            "url": "https://raw.githubusercontent.com/immojn/data/gh-pages/projects/im_mojn/mojnParkBoundaries.geojson",
+            "clickable": true,
+            "name": "mojnParkBoundaries",
+            "styles": {
+              "polygon": {
+                "fill": "transparent",
+                "stroke": "transparent",
+              }
+            }
+          }
+        ],
+        hooks: {
+          init: function(callback) {
+            NPMap.config.overlays[1].onEachFeature = function (feature, layer) {
+                layer.on ('click', function(e) {
+                  var string = feature.properties.UNIT_CODE
+                  window.alert(string);
+                })
+              }
+            callback();
+          }
+        }
+      };
+
+      (function() {
+        var s = document.createElement('script');
+        s.src = 'http://www.nps.gov/npmap/npmap.js/2.0.0/npmap-bootstrap.js';
+        document.body.appendChild(s);
+      })();
+    </script>
+  </body>
+</html>
