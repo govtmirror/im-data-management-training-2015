@@ -24,23 +24,28 @@
         div: 'map',
         overlays: [
           {
-            "type": "geojson",
-            "url": "https://immojn.github.io/data-management-training-2015/data/mojn-park-boundaries.geojson",
+            "opacity": 1,
             "clickable": false,
-            "name": "mojnBoundary",
+            "type": "geojson",
+            "url": "../data/vitalsign_networks.geojson",
+            "name": "Network Boundary",
+            "filter": function(feature) {
+              
+              // Change network name (uppercase)
+              
+              return feature.properties.network === "MOJN";
+            },
             "styles": {
-              "polygon": {
-                "fill": "transparent",
-                "fill-opacity": 0.8,
-                "stroke": "#d39800",
-                "stroke-opacity": "0.8",
-                "stroke-width": "3"
-              }
+              "fill": "#d39800",
+              "fill-opacity": "0",
+              "stroke": "#d39800",
+              "stroke-width": "3",
+              "stroke-opacity": "0.8"
             }
           },
           {
             "type": "geojson",
-            "url": "https://raw.githubusercontent.com/immojn/data/gh-pages/projects/im_mojn/mojnParkBoundaries.geojson",
+            "url": "https://immojn.github.io/data-management-training-2015/data/mojn-park-boundaries.geojson",
             "clickable": true,
             "name": "mojnParkBoundaries",
             "styles": {
