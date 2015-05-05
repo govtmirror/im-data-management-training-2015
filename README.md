@@ -32,8 +32,11 @@
   - [Newsletter Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
   - [Responsive Unigrid Header](http://immojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
 
-
 ## References
+
+### Resources
+
+  - [More than you ever wanted to know about geoJSON (Tom MacWright)](http://www.macwright.org/2015/03/23/geojson-second-bite.html)
 
 ### Presentations
 
