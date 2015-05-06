@@ -14,7 +14,7 @@
 ### 2. NPMap.js
 
 - [Presentation](http://immojn.github.io/data-management-training-2015/presentation/npmap-presentation.html#0)
-- [NPMap Site](http://www.nps.gov/npmap/)
+- [NPMap Site](http://www.nps.gov/npmap)
 - [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
 
   - nps.gov Examples
