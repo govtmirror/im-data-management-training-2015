@@ -23,24 +23,24 @@
 
 ### 2. NPMap.js
 
-- [Presentation](http://immojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
-- [NPMap Site](http://www.nps.gov/npmap/)
-- [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
+  - [Presentation](http://immojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
+  - [NPMap Site](http://www.nps.gov/npmap/)
+  - [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
 
+    ##### nps.gov Examples
+      - [Air Quality](http://www.nature.nps.gov/air/permits/aris/networks/mojn.cfm)
+      - [State Maps](http://www.nps.gov/state/co/index.htm)
 
+    ##### API Examples
+      - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
+        - [Source Code](https://github.com/nationalparkservice/npmap.js/tree/master/examples)
+      - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
+        - [Source Code](https://github.com/immojn/data-management-training-2015/tree/gh-pages/examples)
 
-  ##### nps.gov Examples
-    - [Air Quality](http://www.nature.nps.gov/air/permits/aris/networks/mojn.cfm)
-    - [State Maps](http://www.nps.gov/state/co/index.htm)
+    ##### Docs
 
-  ##### API Examples
-    - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
-    - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
-
-  ##### Docs
-
-    - [Leaflet Documentation](http://leafletjs.com/reference.html)
-    - [NPMap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
+      - [Leaflet Documentation](http://leafletjs.com/reference.html)
+      - [NPMap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
 ### 3. MailChimp
 
