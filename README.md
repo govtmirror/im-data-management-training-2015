@@ -8,7 +8,7 @@
 
 `"I am indeed, a nerd for nature."`
 
-> -*Simon Kingston*
+> -*Simon Kingston, Data Ranger*
 
 
 ## Presentations
