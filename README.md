@@ -4,7 +4,7 @@
 
 ## About Us
 
-[![What we do (and why) - Video](http://img.youtube.com/vi/MZ7Xtk4F5mk/0.jpg)](http://www.youtube.com/watch?v=MZ7Xtk4F5mk)
+[![What We Do (and Why) - Video](http://img.youtube.com/vi/MZ7Xtk4F5mk/0.jpg)](http://www.youtube.com/watch?v=MZ7Xtk4F5mk)
 
 `I am indeed, a nerd for nature.`
 
