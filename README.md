@@ -55,6 +55,7 @@
 ### Resources
 
   - [More than you ever wanted to know about GeoJSON (Tom MacWright)](http://www.macwright.org/2015/03/23/geojson-second-bite.html)
+  - [Inkscape - Open Source Vector Graphics Software](https://inkscape.org/en/)
 
 ### Presentations
 
