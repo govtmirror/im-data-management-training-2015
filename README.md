@@ -8,36 +8,35 @@
 
 > `"I am indeed, a nerd for nature."`  --*Simon Kingston, Data Ranger*
 
-
 # Presentations
 
-##1. GitHub
+## 1. GitHub
 - [MOJN GitHub Organization](https://github.com/immojn)
 - [Git Code School](http://try.github.io)
 - [GitHub for Windows](https://windows.github.com/)
 - [GitHub Pages](https://pages.github.com/)
 - [Gist](https://gist.github.com/)
 
-##2. NPMap.js
+## 2. NPMap.js
 - [Presentation](http://immojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
 - [NPMap Site](http://www.nps.gov/npmap/)
 - [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
 
-#####nps.gov Examples
-- [Air Quality](http://www.nature.nps.gov/air/permits/aris/networks/mojn.cfm)
-- [State Maps](http://www.nps.gov/state/co/index.htm)
+##### nps.gov Examples
+  - [Air Quality](http://www.nature.nps.gov/air/permits/aris/networks/mojn.cfm)
+  - [State Maps](http://www.nps.gov/state/co/index.htm)
+  
+##### API Examples
+  - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
+    - [View Source Code](https://github.com/nationalparkservice/npmap.js/tree/master/examples)
+  - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
+    - [View Source Code](https://github.com/immojn/data-management-training-2015/tree/gh-pages/examples)
+  
+##### Docs
+  - [Leaflet Documentation](http://leafletjs.com/reference.html)
+  - [NPMap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
 
-#####API Examples
-- [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
-  - [Source Code](https://github.com/nationalparkservice/npmap.js/tree/master/examples)
-- [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
-  - [Source Code](https://github.com/immojn/data-management-training-2015/tree/gh-pages/examples)
-
-#####Docs
-- [Leaflet Documentation](http://leafletjs.com/reference.html)
-- [NPMap.js API Documentation](https://github.com/nationalparkservice/npmap.js/blob/master/API.md)
-
-##3. MailChimp
+## 3. MailChimp
 - [MailChimp](http://mailchimp.com)
 - [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
 - [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
