@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"status":"rejected","name":"Site 02"},"geometry":{"type":"Point","coordinates":[-114.86618041992188,35.84870890156269]}},{"type":"Feature","properties":{"status":"accepted","name":"Site 01"},"geometry":{"type":"Point","coordinates":[-114.23858642578125,36.28856319836237]}}]}

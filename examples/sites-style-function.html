@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+    </div>
+    <script>
+      var NPMap = {
+        "baseLayers": [
+          "nps-parkTiles",
+          "nps-parkTilesImagery",
+          "nps-parkTilesSlate",
+          "mapbox-terrain"
+        ],
+        "description": "An I&M network NPMap template",
+        "div": "map",
+        "homeControl": true,
+        "name": "Network Map",
+        "overlays": [
+          {
+            "opacity": 1,
+            "clickable": true,
+            "type": "geojson",
+            "url": "../data/demo-sites.geojson",
+            "name": "Demo Sites",
+            "tooltip": "{{name}}",
+            "popup": {
+              title: "{{name}}",
+              description: "<b>Status:</b> {{status}}"
+            },
+            "styles": {
+              "point": function(feature) {
+                switch (feature.status) {
+                  case 'accepted': return {
+                    "marker-color": "#08ae56",
+                    "marker-size": "medium",
+                    "marker-symbol": "star"
+                  };
+                  case 'rejected':   return {
+                    "marker-color": "#0000ff",
+                    "marker-size": "small",
+                    "marker-symbol": "cross"
+                    };
+                  };
+                }
+            }
+          }
+        ],
+        "scaleControl": true,
+        "smallzoomControl": true
+      }
+
+      var s = document.createElement('script');
+      s.src = 'http://www.nps.gov/lib/npmap.js/2.0.0/npmap-bootstrap.min.js';
+      document.body.appendChild(s);
+    </script>
+  </body>
+</html>

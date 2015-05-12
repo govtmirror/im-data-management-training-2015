@@ -56,9 +56,9 @@
                     "marker-color": "#0000ff",
                     "marker-size": "small",
                     "marker-symbol": "cross"
-                    };
                   };
-                }
+                };
+              }
             },
             //"cluster": true, // Should points be clustered in this overlay?
             // Using handlebars and HTML in tooltips and popups
@@ -66,16 +66,16 @@
             "popup": {
               title: "{{Unit_Code}}-{{Plot_Nbr}}",
               description: "<b>Status:</b> {{Accept}}"
-              }
-            },
-            {
-              "id": "id", // SPOT feed ID here
-              "type": "spot",
-              "password": "password",  // SPOT feed password here
-              "zoomToBounds": true,
-              "minutesAgo": 4320, // Up to 10080 (7 Days) - 1440 min/day
-              //"latest": true, // Define `latest` or `minutesAgo` to limit spot messages
-              "styles": {
+            }
+          },
+          {
+            "id": "id", // SPOT feed ID here
+            "type": "spot",
+            "password": "password",  // SPOT feed password here
+            "zoomToBounds": true,
+            "minutesAgo": 4320, // Up to 10080 (7 Days) - 1440 min/day
+            //"latest": true, // Define `latest` or `minutesAgo` to limit spot messages
+            "styles": {
               "point": {
                 "marker-size": "large",
                 "marker-symbol": "dog-park"
