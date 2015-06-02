@@ -45,13 +45,13 @@
           },
           {
             "type": "geojson",
-            "url": "../data/mojn-parks.geojson",
+            "url": "../data/mojn-park-boundaries.geojson",
             "clickable": true,
             "name": "mojnParkBoundaries",
             "styles": {
               "polygon": {
                 "fill": "transparent",
-                "stroke": "transparent",
+                "stroke": "#000000",
               }
             }
           }
@@ -60,7 +60,7 @@
           init: function(callback) {
             NPMap.config.overlays[1].onEachFeature = function (feature, layer) {
                 layer.on ('click', function(e) {
-                  var string = feature.properties.UNIT_CODE
+                  var string = feature.properties.full_name
                   window.alert(string);
                 })
               }
