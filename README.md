@@ -1,4 +1,4 @@
-![MOJN-Centennial Logo](https://raw.githubusercontent.com/immojn/data-management-training-2015/gh-pages/images/mojn-centennial-transparent.png)
+![MOJN-Centennial Logo](https://raw.githubusercontent.com/nps-mojn/data-management-training-2015/gh-pages/images/mojn-centennial-transparent.png)
 
 # Data Management Training 2015
 
@@ -11,14 +11,14 @@
 # Presentations
 
 ## 1. GitHub
-- [MOJN GitHub Organization](https://github.com/immojn)
+- [MOJN GitHub Organization](https://github.com/nps-mojn)
 - [Git Code School](http://try.github.io)
 - [GitHub for Windows](https://windows.github.com/)
 - [GitHub Pages](https://pages.github.com/)
 - [Gist](https://gist.github.com/)
 
 ## 2. NPMap.js
-- [Presentation](http://immojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
+- [Presentation](http://nps-mojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
 - [NPMap Site](http://www.nps.gov/npmap/)
 - [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
 
@@ -29,8 +29,8 @@
 ##### API Examples
   - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
     - [View Source Code](https://github.com/nationalparkservice/npmap.js/tree/master/examples)
-  - [I&M Examples](http://immojn.github.io/data-management-training-2015/examples)
-    - [View Source Code](https://github.com/immojn/data-management-training-2015/tree/gh-pages/examples)
+  - [I&M Examples](http://nps-mojn.github.io/data-management-training-2015/examples)
+    - [View Source Code](https://github.com/nps-mojn/data-management-training-2015/tree/gh-pages/examples)
   
 ##### Docs
   - [Leaflet Documentation](http://leafletjs.com/reference.html)
@@ -39,9 +39,9 @@
 ## 3. MailChimp
 - [MailChimp](http://mailchimp.com)
 - [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
-- [MOJN MailChimp Unigrid Templates](https://github.com/immojn/mailchimp-unigrid-templates)
-- [Newsletter Email Template](http://immojn.github.io/mailchimp-unigrid-templates/email-template.html)
-- [Responsive Unigrid Header](http://immojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
+- [MOJN MailChimp Unigrid Templates](https://github.com/nps-mojn/mailchimp-unigrid-templates)
+- [Newsletter Email Template](http://nps-mojn.github.io/mailchimp-unigrid-templates/email-template.html)
+- [Responsive Unigrid Header](http://nps-mojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
 
 # References
 
