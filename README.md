@@ -39,9 +39,6 @@
 ## 3. MailChimp
 - [MailChimp](http://mailchimp.com)
 - [Live Subscribe Page](http://nps.us9.list-manage.com/subscribe?u=e405e801f1ff2a7a57e7dd2a9&id=103a1f39d5)
-- [MOJN MailChimp Unigrid Templates](https://github.com/nps-mojn/mailchimp-unigrid-templates)
-- [Newsletter Email Template](http://nps-mojn.github.io/mailchimp-unigrid-templates/email-template.html)
-- [Responsive Unigrid Header](http://nps-mojn.github.io/mailchimp-unigrid-templates/signup-form-header.html)
 
 # References
 
