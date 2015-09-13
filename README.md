@@ -1,4 +1,4 @@
-![MOJN-Centennial Logo](https://raw.githubusercontent.com/nps-mojn/data-management-training-2015/gh-pages/images/mojn-centennial-transparent.png)
+![MOJN-Centennial Logo](https://raw.githubusercontent.com/nationalparkservice/im-data-management-training-2015/gh-pages/images/mojn-centennial-transparent.png)
 
 # Data Management Training 2015
 
@@ -11,14 +11,13 @@
 # Presentations
 
 ## 1. GitHub
-- [MOJN GitHub Organization](https://github.com/nps-mojn)
 - [Git Code School](http://try.github.io)
 - [GitHub for Windows](https://windows.github.com/)
 - [GitHub Pages](https://pages.github.com/)
 - [Gist](https://gist.github.com/)
 
 ## 2. NPMap.js
-- [Presentation](http://nps-mojn.github.io/data-management-training-2015/presentation/npmap-presentation.html)
+- [Presentation](http://nationalparkservice.github.io/im-data-management-training-2015/presentation/npmap-presentation.html)
 - [NPMap Site](http://www.nps.gov/npmap/)
 - [Add Park Tiles to ArcGIS](http://www.nps.gov/npmap/blog/adding-park-tiles-to-arcgis-desktop.html)
 
@@ -29,8 +28,8 @@
 ##### API Examples
   - [NPMap.js](http://www.nps.gov/npmap/npmap.js/2.0.0/examples/)
     - [View Source Code](https://github.com/nationalparkservice/npmap.js/tree/master/examples)
-  - [I&M Examples](http://nps-mojn.github.io/data-management-training-2015/examples)
-    - [View Source Code](https://github.com/nps-mojn/data-management-training-2015/tree/gh-pages/examples)
+  - [I&M Examples](http://nationalparkservice.github.io/im-data-management-training-2015/examples)
+    - [View Source Code](https://github.com/nationalparkservice/im-data-management-training-2015/tree/gh-pages/examples)
   
 ##### Docs
   - [Leaflet Documentation](http://leafletjs.com/reference.html)
